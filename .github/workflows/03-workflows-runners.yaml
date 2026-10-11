@@ -3,6 +3,7 @@ name: 03-Workflow Runners
 on: push
 
 jobs:
+<<<<<<< HEAD
   ubuntu-echo:
     runs-on: ubuntu-latest
     steps:
@@ -27,3 +28,12 @@ jobs:
         run: |
           echo "This job is running on a MacOS runner."
           echo "Runner OS: $RUNNER_OS"
+=======
+    ubuntu-echo:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Show OS
+              run: |
+                echo "This job is running on ubuntu runner."
+                echo "Runner OS: $RUNNER_OS"
+>>>>>>> 60e81ca (Fix workflow filename)
