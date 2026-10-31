@@ -1,2 +1,2 @@
 # gh-action-course
-repository containing all examples. as well as notes for github actions courses. This has been edited
+repository containing all examples. as well as notes for github actions courses. This has been edited again.
